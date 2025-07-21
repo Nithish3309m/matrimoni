@@ -1,0 +1,31 @@
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Optional: removes jumping */
+}
+
+.dropdown-menu {
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+/* FORCE dark dropdown menu in Bootstrap navbar */
+.navbar .dropdown-menu {
+  background-color: #212529 !important;
+  border: none !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: #f8f9fa !important;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #343a40 !important;
+  color: #fff !important;
+}
